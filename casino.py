@@ -10,7 +10,7 @@ while balance > 0:
 
 
         # Step 1: Get the player's bet
-        bet = int(input("How much do you want to bet? (or type any word to error out and quit) $"))
+        bet = int(input("How much do you want to bet?$"))
 
         # Step 2: Get their guess (odd or even)
         guess = input("Predict if the dice roll is odd or even): ").lower()
